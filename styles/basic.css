@@ -21,3 +21,7 @@ a {
     text-decoration: none;
     color: pink;
 }
+
+h1, p {
+    margin: 0;
+}

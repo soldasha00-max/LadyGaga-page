@@ -1,0 +1,45 @@
+.home {
+    text-align: center;
+    padding: 0 0 70px 0;
+}
+
+
+.home-title {
+    color: var(--font-color-pink);
+    font-size: 45px;
+    font-weight: 700;
+    margin: 45px 0 25px;
+    
+}
+
+.home-description {
+    color: var(--font-color-pink);
+    margin: 0 0 35px 0;
+    font-weight: 500;
+}
+
+.pic1 {
+    display: block;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    box-shadow: 0 0 20px white;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 480px) {
+    .home {
+       text-align: left;
+    }
+    .home-title {
+   font-size: 32px;
+   margin: 45px 0 25px;
+}
+
+.home-description {
+    margin: 0 0 35px 0;
+    font-weight: 14;
+}
+}

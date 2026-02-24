@@ -1,0 +1,27 @@
+.about {
+    background-color: var(--bg-main-pink);
+    padding: 60px 0 100px 0;
+    text-align: center;
+}
+
+.about-title {
+    color: var(--font-color-pink);
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 0 42px 0;
+}
+
+.about-subtitle {
+    color: var(--font-color-pink);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+
+.about-description {
+    color: var(--font-color-pink);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+    text-align: justify;
+}
