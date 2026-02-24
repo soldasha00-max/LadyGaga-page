@@ -1,3 +1,9 @@
 :root {
     --bg-main: black;
+    --bg-main-pink: rgb(154, 83, 95) ;
+
+    --font-color-pink: rgb(175, 109, 161) ;
+
+    --color-main-peach: rgb(216, 139, 139);
 }
+
