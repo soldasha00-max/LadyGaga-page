@@ -1,0 +1,55 @@
+.history {
+    padding: 30px 0 50px;
+}
+
+.history-title {
+    color: var(--font-color-pink);
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 34px;
+    font-weight: 700;
+}
+/* .history-photo {
+    display: flex;
+    width: 400px;
+     margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    object-fit: cover;
+    } */
+
+.childhood-description {
+     color: var(--font-color-pink);
+     margin-top: 30px;
+     text-align: justify;
+     font-size: 18px;
+     font-weight: 500;
+}
+/* .history-photo2 {
+    display: flex;
+    width: 400px;
+     margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    object-fit: cover;
+} */
+.pictures {
+  display: flex;
+  gap: 20px; /* отступ между картинками (можно убрать или изменить) */
+  justify-content: center; /* центрирует ряд по горизонтали (опционально) */
+}
+
+.history-photo, 
+.history-photo2 {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.history-photo,
+.history-photo2 {
+    width: 350px;
+    box-shadow: 0 0 10px white;
+    object-fit: cover;
+}
+
